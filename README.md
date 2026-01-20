@@ -2,6 +2,7 @@
 
 Smart Study Buddy is a full-stack web application designed to help students plan, track, and improve their study routines using smart features and an intuitive interface.
 
+https://smart-study-buddy-2.vercel.app/
 ---
 
 ## 🚀 Features
