@@ -14,7 +14,7 @@ export default function SmartStudyBuddy() {
     const [chatHistory, setChatHistory] = useState([]);
 
     // API Base URL - Replace with your deployed backend
-    const API_BASE = 'http://localhost:8000';
+    const API_BASE = 'https://smart-study-buddy-production.up.railway.app/';
 
     const handleFileUpload = async (e) => {
         const file = e.target.files[0];
