@@ -72,7 +72,9 @@ class StudyPlanResponse(BaseModel):
 # will automatically look for and use the OPENAI_API_KEY and OPENAI_BASE_URL
 # environment variables, which should be set in the .env file.
 model = OpenAIModel(
-    'meta-llama/llama-3.2-3b-instruct:free'
+    model_name="meta-llama/llama-3.2-3b-instruct:free",
+    api_key=os.getenv("OPENROUTER_API_KEY"),
+    base_url="https://openrouter.ai/api/v1"
 )
 
 # Create specialized agents for different tasks
