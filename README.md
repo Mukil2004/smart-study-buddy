@@ -40,9 +40,9 @@ smart-study-buddy/
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the repository
-```bash
 git clone https://github.com/Mukil2004/smart-study-buddy.git
 cd smart-study-buddy
+
 2️⃣ Frontend Setup
 cd frontend
 npm install
@@ -72,7 +72,6 @@ Computer Science & Engineering Student
 
 ## ✅ Step 3: Commit and Push README
 
-```powershell
 git add README.md
 git commit -m "Add README"
 git push
